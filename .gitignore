@@ -1,0 +1,26 @@
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.idea 忽略以.idea文件
+logs/  忽略logs文件夹
+*.iml  忽略以iml结尾的文件
+target/ 忽略target文件夹
